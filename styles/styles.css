@@ -1,0 +1,116 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+.header {
+  background-image: url(/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top/contain;
+  background-color: #ebfbff;
+  max-width: 100%;
+  padding-top: 3rem;
+}
+
+.header .container {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.header .container .head-top {
+  padding-bottom: 8rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.header .container .head-top img {
+  max-width: 30%;
+}
+
+.header .container .head-top .btn {
+  max-width: 100%;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem 3rem;
+  color: #444;
+  background-color: #fff;
+  border-radius: 100px 100px 100px 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.header .container .head-top h1 {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Poppins',sans-serif;
+}
+
+.header .container .head-top p {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Open Sans',sans-serif;
+  padding-bottom: 3rem;
+}
+
+.header .container .head-top .cta {
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background-color: #ff52bf;
+  padding: 15px 30px;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.header .container .head-top .pcpic {
+  max-width: 100%;
+  padding-top: 4rem;
+}
+
+.card-sect {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.card-sect .card {
+  -webkit-box-shadow: #444 1px 1px 1px;
+          box-shadow: #444 1px 1px 1px;
+  border-radius: 5%;
+  width: 90%;
+  margin: 0 auto 2rem auto;
+}
+
+.card-sect .card img {
+  max-width: 100%;
+}
+
+.testing .overlaps {
+  position: absolute;
+  bottom: -180rem;
+  z-index: 1;
+  background-color: white;
+  -webkit-box-shadow: black 1px 1px 1px 1px;
+          box-shadow: black 1px 1px 1px 1px;
+  height: 450px;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  background-color: rebeccapurple;
+}
+
+.testing .foot {
+  position: relative;
+  z-index: 0;
+  background-color: red;
+  height: 500px;
+}
+/*# sourceMappingURL=styles.css.map */
