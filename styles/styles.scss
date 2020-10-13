@@ -10,7 +10,9 @@ body{
 $pink: hsl(322, 100%, 66%);
 $palecyan : hsl(193, 100%, 96%);
 $darkcyan:hsl(192, 100%, 9%);
-$greyblue:hsl(192, 100%, 9%);
+// $greyblue:hsl(192, 100%, 9%);
+$overlaps-width: 90%;
+
 
 
 
@@ -97,26 +99,27 @@ $greyblue:hsl(192, 100%, 9%);
 
 
 
-    .testing{
-
-    
-    .overlaps{
-        position: absolute;
-        bottom: -180rem;
-        z-index: 1;
-        background-color:white;
-        box-shadow: black 1px 1px 1px 1px;
-        height: 450px;
-        width:80%;
-        margin: 0 auto 0 auto;
-        background-color: rebeccapurple;
-        
-    }
     .foot{
+    
         position: relative;
         z-index: 0;
-        background-color: red;
+        background-color:$darkcyan;
         height: 500px;
+        color: #fff;
+        padding-top: 129px;
+        .overlaps{
+            // display:none;
+            position: absolute;
+            z-index: 1;
+            background-color:white;
+            box-shadow: black 1px 1px 1px 1px;
+            height: 100px;
+            width:$overlaps-width;
+            top:-50px;
+            left: 50%;
+            margin-left:-($overlaps-width / 2); 
+            background-color:#fff;
+            
+        }
     }
-}
 

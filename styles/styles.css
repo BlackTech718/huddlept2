@@ -94,23 +94,26 @@ body {
   max-width: 100%;
 }
 
-.testing .overlaps {
+.foot {
+  position: relative;
+  z-index: 0;
+  background-color: #00252e;
+  height: 500px;
+  color: #fff;
+  padding-top: 129px;
+}
+
+.foot .overlaps {
   position: absolute;
-  bottom: -180rem;
   z-index: 1;
   background-color: white;
   -webkit-box-shadow: black 1px 1px 1px 1px;
           box-shadow: black 1px 1px 1px 1px;
-  height: 450px;
-  width: 80%;
-  margin: 0 auto 0 auto;
-  background-color: rebeccapurple;
-}
-
-.testing .foot {
-  position: relative;
-  z-index: 0;
-  background-color: red;
-  height: 500px;
+  height: 100px;
+  width: 90%;
+  top: -50px;
+  left: 50%;
+  margin-left: -45%;
+  background-color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */
