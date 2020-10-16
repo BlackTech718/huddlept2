@@ -125,6 +125,7 @@ header .container-grid .pc-pic {
 .main-content .container {
   max-width: 90%;
   margin: 0 auto 0 auto;
+  padding-bottom: 100px;
 }
 
 .main-content .container .card {
@@ -155,9 +156,9 @@ header .container-grid .pc-pic {
 }
 
 .main-content .overlap-center {
-  z-index: 1;
+  z-index: 2;
   position: absolute;
-  bottom: 25px;
+  bottom: 550px;
   max-width: 100%;
   height: 150px;
   background-color: white;
@@ -192,6 +193,31 @@ header .container-grid .pc-pic {
   font-family: 'Poppins',sans-serif;
   font-size: 14px;
   margin: 0 auto 0 auto;
+}
+
+.main-content .foot-section {
+  z-index: 1;
+  background-color: #00252e;
+  color: #fff;
+  max-height: 100vh;
+}
+
+.main-content .foot-section .container {
+  max-width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+.main-content .foot-section .container .foot-logo {
+  margin-top: 100px;
+  max-width: 100%;
+}
+
+.main-content .foot-section .container .info-block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.50fr 3fr;
+      grid-template-columns: 0.50fr 3fr;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 768px) {
